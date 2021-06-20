@@ -1,5 +1,10 @@
 const backdrop = document.querySelector('.backdrop');
+const buttons = document.querySelectorAll('.plan button');
+const modal = document.querySelector('.modal');
 
-// console.dir(backdrop);
-
-backdrop.style.display = 'block';
+for (let button of buttons) {
+  button.addEventListener('click', () => {
+    backdrop.style.display = 'block';
+    modal.style.display = 'block';
+  });
+}
