@@ -202,3 +202,7 @@ body::-webkit-scrollbar {
 .button:focus {
   outline: none;
 }
+
+.open {
+  display: block !important;
+}
