@@ -10,7 +10,9 @@ const hideModal = () => {
   // backdrop.style.display = 'none';
   // modal.style.display = 'none';
   backdrop.classList.remove('open');
-  modal.classList.remove('open');
+  if (modal) {
+    modal.classList.remove('open');
+  }
 };
 
 for (let button of buttons) {
