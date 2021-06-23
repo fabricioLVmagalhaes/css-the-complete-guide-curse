@@ -27,7 +27,9 @@ backdrop.addEventListener('click', () => {
   mobileNav.classList.remove('open');
   hideModal();
 });
-ngtBtn.addEventListener('click', hideModal);
+if (ngtBtn) {
+  ngtBtn.addEventListener('click', hideModal);
+}
 
 toggleButton.addEventListener('click', () => {
   // mobileNav.style.display = 'block';
