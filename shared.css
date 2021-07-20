@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
