@@ -68,7 +68,9 @@ main {
   background: white;
   font-family: "AnonymousPro", "sans-serif";
   font-weight: 700;
-  line-height: 2;
+  /* line-height: 2; */
+  /* text-decoration: underline; */
+  /* text-shadow: 2px 2px 7px rgb(167, 167, 167); */
 }
 
 .clearFix {
