@@ -63,14 +63,9 @@ main {
 .package__info {
   padding: 1rem;
   border: 1px solid #0e4f1f;
-  font-size: 1.25rem;
   color: #0e4f1f;
   background: white;
-  font-family: "AnonymousPro", "sans-serif";
-  font-weight: 700;
-  /* line-height: 2; */
-  /* text-decoration: underline; */
-  /* text-shadow: 2px 2px 7px rgb(167, 167, 167); */
+  font: 700 1.25rem "AnonymousPro", sans-serif;
 }
 
 .clearFix {
