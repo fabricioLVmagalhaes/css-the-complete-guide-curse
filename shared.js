@@ -5,6 +5,7 @@ const posBtn = document.querySelector('a.modal__action');
 const ngtBtn = document.querySelector('.modal__action.modal__action--negative');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
+const ctaButton = document.querySelector('.main-nav__item--cta');
 
 const hideModal = () => {
   // backdrop.style.display = 'none';
@@ -39,3 +40,15 @@ toggleButton.addEventListener('click', () => {
   mobileNav.classList.add('open');
   backdrop.classList.add('open');
 });
+
+ctaButton.addEventListener('animationstart', (event) => {
+  console.log('Animation started', event);
+});
+
+ctaButton.addEventListener('animationend', (event) => {
+  console.log('Animation ended', event);
+});
+
+ctaButton.addEventListener('animationiteration', (event) => {
+  console.log('Animation iteration', event);
+})
